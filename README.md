@@ -1,2 +1,2 @@
 # Google-AI-Hackathon
-organized by DEVPOST
+organized by [DEVPOST](https://googleai.devpost.com/)
