@@ -1,0 +1,20 @@
+repo_name: Ashish-Soni08/Google-AI-Hackathon
+report_id: ff81f5d42f51a976e27b7cf25d6e8669
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-18T20:53:15+00:00'
+requested_by: Ashish-Soni08
+provider: github
+branch: main
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Ashish-Soni08/Google-AI-Hackathon
+  detection_source: Repo Metadata
