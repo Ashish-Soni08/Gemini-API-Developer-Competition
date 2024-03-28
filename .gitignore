@@ -1,3 +1,14 @@
+###############################################
+# Added by Author - Ashish Soni
+
+## 28.03.2024
+/google-ai 
+
+.env
+
+## 28.03.2024
+###############################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
