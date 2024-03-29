@@ -23,7 +23,7 @@ source google-ai/bin/activate
 
 ## Tech Stack
 
-Data Framework - LllamaIndex
-Generative AI Models - Google
-Frontend - Streamlit
+Data Framework - LllamaIndex  
+Generative AI Models - Google  
+Frontend - Streamlit  
 Programming Language - Python
