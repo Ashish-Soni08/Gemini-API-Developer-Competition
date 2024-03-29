@@ -2,6 +2,8 @@
 
 organized by [DEVPOST](https://googleai.devpost.com/)
 
+**GRANTED ACCESS TO THE GEMINI 1.5 PRO API AND FILE API:** 29.03.2024
+
 **DEADLINE:** May 3, 2024
 
 ## Environment Setup
