@@ -1,28 +1,20 @@
 from dotenv import dotenv_values
 
-config = dotenv_values(".env")  # config = {"USER": "foo", "EMAIL": "foo@example.org"}
-# print(config)
+config = dotenv_values(".env")
 
 # API KEYS, URLS, TOKENS, ETC
 
-## Data Providers
-
-# LlamaIndex
+## LlamaIndex(LlamaParse)
 LLAMAPARSE_API_KEY: str = config["LLAMAPARSE_API"]
 
-# ## Anyscale Endpoints
-# ANYSCALE_API_KEY: str = config["ANYSCALE_API"]
-
-## Model Providers
-
-# Google
+## Google(Gemini-1.5-pro-latest)
 GEMINIPRO_API_KEY: str = config["GEMINIPRO_API"]
 
-# # Hugging Face
-# HF_API_KEY: str = config["HF_API"] # Read
-# HF_TOKEN: str = config["HF_TOKEN"] # Write
+## LangChain(Langsmith)
+LANGCHAIN_API_KEY: str = config["LANGCHAIN_API"]
+LANGCHAIN_URL: str = config["LANGCHAIN_ENDPOINT"]
+LANGCHAIN_PROJECT: str = config["LANGCHAIN_PROJECT"]
 
-# # LangChain(langsmith)
-# LANGCHAIN_API_KEY: str = config["LANGCHAIN_API"]
-# LANGCHAIN_URL: str = config["LANGCHAIN_ENDPOINT"]
-# LANGCHAIN_PROJECT: str = config["LANGCHAIN_PROJECT"]
+## Qdrant
+QDRANT_API_KEY: str = config["QDRANT_API"]
+QDRANT_CLUSTER: str = config["QDRANT_ENDPOINT"]
