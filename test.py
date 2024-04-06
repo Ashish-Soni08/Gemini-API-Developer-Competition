@@ -2,7 +2,12 @@
 # Built-In modules
 import os
 
+
 # Community modules
+
+from llama_parse import LlamaParse
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+
 from langchain_google_genai import GoogleGenerativeAI
 # from langchain.chains import LLMChain
 # from langchain_core.output_parsers import StrOutputParser
@@ -50,6 +55,17 @@ os.environ["LANGCHAIN_API_KEY"] = LANGCHAIN_API_KEY
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = LANGCHAIN_URL
 os.environ["LANGCHAIN_PROJECT"] = LANGCHAIN_PROJECT
+
+# set up parser
+parser = LlamaParse(
+    result_type="markdown"  # "markdown" and "text" are available
+)
+
+# use SimpleDirectoryReader to parse our file
+file_extractor = {".pdf": parser}
+documents = SimpleDirectoryReader(input_files=['data/Canada.pdf'], file_extractor=file_extractor).load_data()
+print(documents)
+
 
 #### USING LANGCHAIN
 
