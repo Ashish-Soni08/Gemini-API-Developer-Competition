@@ -17,19 +17,24 @@ Known Limitations:
 ## Environment Setup
 
 ```bash
+
 # python version -> 3.10.13
 python -V 
 
-# create a environment named -> sophia_env
+# create a environment named -> google-ai
 python -m venv google-ai
+
+```
+
+```bash
 
 # activate the environment
 source google-ai/bin/activate
+
 ```
 
-**Python Version:** *3.10.13*
-
 ```python
+
 # List models to see the available Gemini models
 for m in genai.list_models():
     if 'generateContent' in m.supported_generation_methods:
@@ -45,6 +50,7 @@ for m in genai.list_models():
 # models/gemini-pro
 # models/gemini-pro-vision
 # models/gemini-ultra
+
 ```
 
 ## Tech Stack
