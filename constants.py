@@ -18,3 +18,9 @@ LANGCHAIN_PROJECT: str = config["LANGCHAIN_PROJECT"]
 ## Qdrant
 QDRANT_API_KEY: str = config["QDRANT_API"]
 QDRANT_CLUSTER: str = config["QDRANT_ENDPOINT"]
+
+# MODELS
+
+EMBEDDING_MODEL = "models/embedding-001"
+
+LLM = "models/gemini-1.5-pro-latest"
