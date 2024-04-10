@@ -6,7 +6,8 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 
 
 
-from constants import (GEMINIPRO_API_KEY,
+from constants import (EMBEDDING_MODEL,
+                       GEMINIPRO_API_KEY,
                        LLAMAPARSE_API_KEY,
                        QDRANT_API_KEY,
                        QDRANT_CLUSTER)
@@ -24,13 +25,13 @@ def extract_markdown_from_pdf(api_key: str = LLAMAPARSE_API_KEY, file_path: str 
 
     documents = parser.load_data(file_path)
 
-    print("Total Number of Documents ->", len(documents))
+    print("Total Number of Documents parsed ->", len(documents))
 
 def transform_markdown_to_nodes(docs: List):
 
     markdown_parser = MarkdownNodeParser()
-    nodes = markdown_parser.get_nodes_from_documents(docs)
-    print("Total Number of Nodes ->", len(nodes))
+    nodes = markdown_parser.get_nodes_from_documents(docs, include_metadata=True, include_prev_next_rel=True)
+    print("Total Number of Nodes created ->", len(nodes))
 
 def load_to_qdrant():
     pass
