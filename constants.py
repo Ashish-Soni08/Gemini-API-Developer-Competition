@@ -24,3 +24,8 @@ QDRANT_CLUSTER: str = config["QDRANT_ENDPOINT"]
 EMBEDDING_MODEL = "models/embedding-001"
 
 LLM = "models/gemini-1.5-pro-latest"
+
+## UNSTRUCTURED
+
+UNSTRUCTURED_API_KEY: str = config["UNSTRUCTURED_API"]
+UNSTRUCTURED_URL: str = config["UNSTRUCTURED_ENDPOINT"]
