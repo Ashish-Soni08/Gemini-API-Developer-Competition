@@ -1,12 +1,14 @@
-# Nothing About Us without Us (A Scientic Study by Aidana Rakhatbekova)
+# Gemini-API-Developer-Competition
 
-The purpoee of the Project is to
+organized by [Google](https://ai.google.dev/competition)
 
-Gemini-API-Developer-Competition
+**Gemini 1.5 Pro** is a next-generation AI model that delivers a breakthrough in long context understanding. It can process upto **1M tokens** across different modalities, enabling richer and more complex interactions.
 
-organized by [DEVPOST](https://googleai.devpost.com/)
+**Files API** is an easy way for developers to upload files for multimodel use cases. It’s the most stable and least error-prone method of unlocking multimodel support in your applications using Gemini.
 
-**GRANTED ACCESS TO THE GEMINI 1.5 PRO API AND FILE API:** 29.03.2024
+Known Limitations:
+
+- Maximum request size: The **Gemini 1.5 Pro API** currently has a maximum request size of 20MB. Use the **File API** for requests larger than 20MB.
 
 ## Environment Setup
 
