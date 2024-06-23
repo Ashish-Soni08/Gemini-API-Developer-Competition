@@ -2,7 +2,7 @@
 
 The purpoee of the Project is to
 
-Google-AI-Hackathon
+Gemini-API-Developer-Competition
 
 organized by [DEVPOST](https://googleai.devpost.com/)
 
@@ -28,7 +28,6 @@ source google-ai/bin/activate
 ```
 
 ## UNDERSTANDING THE STRUCTURE OF THE THESIS PDF
-
 
 ## TECHNICAL DETAILS ABOUT THE IMPLEMENTATION
 
