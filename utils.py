@@ -1,6 +1,7 @@
 import requests
 
-# load lottie file from url
+
+######### load lottie file from url #####
 def load_lottieurl(url: str):
     try:
         # Send a GET request to the url
@@ -13,3 +14,5 @@ def load_lottieurl(url: str):
     except Exception as e:
         print(e)
         return f"Failed to retrieve the lottie file {e}"
+
+
