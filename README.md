@@ -10,27 +10,6 @@ Known Limitations:
 
 - Maximum request size: The **Gemini 1.5 Pro API** currently has a maximum request size of 20MB. Use the **File API** for requests larger than 20MB.
 
-## Environment Setup
-
-```bash
-
-# python version -> 3.10.13
-python -V 
-
-# create a environment named -> google-ai
-python -m venv google-ai
-
-```
-
-```bash
-
-# activate the environment
-source google-ai/bin/activate
-
-```
-
-## UNDERSTANDING THE STRUCTURE OF THE THESIS PDF
-
 ## TECHNICAL DETAILS ABOUT THE IMPLEMENTATION
 
 **Gemini 1.5 Pro** is a next-generation AI model that delivers a breakthrough in long context understanding. It can process upto **1M token window** across different modalities, enabling richer and more complex interactions. To put things into Prespective, one can use it to:
