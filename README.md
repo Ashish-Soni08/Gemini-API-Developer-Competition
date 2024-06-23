@@ -1,10 +1,6 @@
-# Google-AI-Hackathon
+# Gemini-API-Developer-Competition
 
-organized by [DEVPOST](https://googleai.devpost.com/)
-
-**GRANTED ACCESS TO THE GEMINI 1.5 PRO API AND FILE API:** 29.03.2024
-
-**DEADLINE:** May 3, 2024
+organized by [Google](https://ai.google.dev/competition)
 
 **Gemini 1.5 Pro** is a next-generation AI model that delivers a breakthrough in long context understanding. It can process upto **1M tokens** across different modalities, enabling richer and more complex interactions.
 
