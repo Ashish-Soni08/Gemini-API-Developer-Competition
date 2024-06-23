@@ -6,7 +6,7 @@ from llama_index.embeddings.gemini import GeminiEmbedding
 
 
 
-from constants import (EMBEDDING_MODEL,
+from backend.constants import (EMBEDDING_MODEL,
                        GEMINIPRO_API_KEY,
                        LLAMAPARSE_API_KEY,
                        QDRANT_API_KEY,
