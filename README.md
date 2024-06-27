@@ -32,3 +32,13 @@ Known Limitations:
 **LLM(Large Language Model)** - *Gemini 1.5 Pro* language model from Google
 **Programming Language** - *Python*  
 **Vector Database** - *Qdrant*
+
+```bash
+# Creates a virtual environment called venv
+python -m venv google-ai
+```
+
+```bash
+# Activate the virtual environment
+source google-ai/bin/activate
+```
